@@ -28,14 +28,16 @@ permissive-script-security:0.1
 junit:1.9
 sse-gateway:1.15
 workflow-basic-steps:2.5
-credentials:1.24
+credentials:2.1.7
 pipeline-build-step:2.5
 configurationslicing:1.47
 workflow-api:2.17
 pipeline-stage-step:2.2
 ansicolor:0.4.3
 rake:1.8.0
-credentials-binding:1.11
+workflow-step-api:2.10
+plain-credentials:1.4
+credentials-binding:1.13
 run-condition:1.0
 scm-api:0.2
 authentication-tokens:1.2
@@ -52,7 +54,6 @@ gradle:1.24
 metrics:3.1.2.10
 token-macro:1.11
 structs:1.7
-workflow-step-api:1.10.1
 maven-plugin:2.12.1
 instant-messaging:1.35
 ant:1.2
@@ -60,7 +61,6 @@ antisamy-markup-formatter:1.3
 display-url-api:2.0
 ace-editor:1.1
 findbugs:4.70
-plain-credentials:1.4
 pipeline-github-lib:1.0
 branch-api:2.0.9
 pipeline-model-api:1.1.5
