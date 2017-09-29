@@ -1,0 +1,6 @@
+Run the following in the Jenkins script console to get a sorted list of plugins with their versions:
+
+Jenkins.instance.pluginManager.plugins.sort { it.getShortName() }.each{
+  plugin -> 
+    println ("${plugin.getShortName()}:${plugin.getVersion()}")
+}
