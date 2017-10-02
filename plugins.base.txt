@@ -110,7 +110,7 @@ buildgraph-view:1.1.1
 instant-messaging:1.35
 analysis-collector:1.45
 zapper:1.0.7
-greenballs:1.15
+#greenballs:1.15
 jquery-ui:1.0.2
 dashboard-view:2.9.6
 cobertura:1.9.7
