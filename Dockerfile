@@ -41,8 +41,6 @@ ENV JENKINS_UC https://updates.jenkins.io
 COPY plugins.sh /usr/local/bin/plugins.sh
 COPY plugins.base.txt /usr/share/jenkins/ref/
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/ref/plugins.base.txt
-COPY plugins.txt /usr/share/jenkins/ref/
-RUN /usr/local/bin/plugins.sh /usr/share/jenkins/ref/plugins.txt
 RUN rm /etc/localtime
 RUN ln -s /usr/share/zoneinfo/Europe/London /etc/localtime
 
