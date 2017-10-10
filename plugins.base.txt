@@ -113,7 +113,6 @@ ruby-runtime:0.12
 run-condition:1.0
 saml:1.0.4
 scm-api:2.2.2
-scriptler:2.9
 script-security:1.34
 slack:2.3
 sonar:2.6.1
@@ -127,7 +126,6 @@ swarm:3.4
 timestamper:1.8.8
 token-macro:2.3
 translation:1.15
-uno-choice:1.2
 update-sites-manager:2.0.0
 variant:1.1
 violations:0.8.0-alpha-2
