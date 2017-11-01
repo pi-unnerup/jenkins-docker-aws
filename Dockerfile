@@ -1,6 +1,6 @@
 FROM quay.io/ukhomeofficedigital/centos-base:v0.5.0
 
-RUN yum install -y wget &&  wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-10.noarch.rpm 
+RUN yum install -y wget &&  wget http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm 
 RUN rpm -ivh epel-release-7-10.noarch.rpm
 
 RUN yum install -y -q python-pip maven java-1.8.0-openjdk-devel fontconfig dejavu-sans-fonts git parallel which npm net-tools; yum clean all; pip install awscli
